@@ -11,15 +11,36 @@
 
 /* Doodle Stage */
 #stage {
-  background: #ccc;
+  position: relative;
+/* Change the canvas size fixed units only*/
   height: 300px;
   width: 600px;
+  top: -20px;
 }
 
-#heart1 {
-  fill: red;
+.pikachu {
+/*   scale: .25; */
+  width: 147.5px;
+  height: 91.5px;
+  position: absolute;
+  left: 229px;
+  top: 188px;
 }
 
-#heart2 {
-  fill: green;
+.pokeball {
+  position: absolute;
+/*   scale: .13; */
+  height: 78px;
+  width: 78px;
+  top: 201px;
+  left: 163px;
+}
+
+.google {
+  position: absolute;
+  left: 110px;
+  right: 110px;
+  top: 165px;
+  scale: 1.5;
+  
 }
